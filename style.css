@@ -1,0 +1,128 @@
+.sortTitles {
+    font-size: larger;
+    margin-top: 20px;
+}
+
+#wrapper {
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    max-height: 1000px;
+}
+
+#del-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sorting-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+i {
+    width: 15px;
+    height: 35px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+#titleDefinition,
+#icon {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#search-wrapper {
+    display: inline-block;
+}
+
+.noteItem {
+    color: white;
+    border-color: white;
+    border-style: dotted;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.inputField {
+    margin-bottom: 20px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descriptionField {
+    color: white;
+    border-color: white;
+    background-color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#noteField {
+    visibility: hidden;
+    width: 90%;
+    height: 450px;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    margin-bottom: 70px;
+    padding-left: 50px;
+    font-size: larger;
+}
+
+.buttonNew {
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.buttonSave {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+.button-wrapper {
+    text-align: center;
+}
